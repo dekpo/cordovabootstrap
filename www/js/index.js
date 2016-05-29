@@ -6,15 +6,25 @@ var app = {
 		if ("cordova" in window) {
     		document.addEventListener('deviceready', this.onDeviceReady, false);
 		} else {
-    		app.onDeviceReady();
+    		app.receivedEvent('Device ready from browser !');
 		}        
     },
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
+        app.receivedEvent('Device ready from app !');
     },
-    receivedEvent: function(id) {
-        $('#modalInfo').modal('show');
-        console.log('Received Event: ' + id);
+    receivedEvent: function(str) {	
+	
+		var info = str;
+		
+		$(function() {
+				   
+			$('#modalInfo').modal('show');
+			
+				$('#modalInfo').on('shown.bs.modal', function () {
+				$('#modalInfo div.modal-body').html(info);
+				console.log('Received Event: ' + info); 	
+				});
+		});
     }
 };
 
