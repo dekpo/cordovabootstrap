@@ -1,0 +1,1 @@
+C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\CordovaApp.Windows.jsproj;neutral
