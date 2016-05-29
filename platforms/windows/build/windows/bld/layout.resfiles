@@ -27,4 +27,6 @@ www\index.html
 www\js\bootstrap.min.js
 www\js\index.js
 www\js\jquery-1.12.4.min.js
+www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js
+www\plugins\cordova-plugin-statusbar\www\statusbar.js
 www\WinJS\js\base.js

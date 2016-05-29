@@ -76,6 +76,12 @@
     <AppxPackagedFile Include="C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\js\jquery-1.12.4.min.js">
       <PackagePath>www\js\jquery-1.12.4.min.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\plugins\cordova-plugin-statusbar\www\statusbar.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\www\statusbar.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\WinJS\js\base.js">
       <PackagePath>www\WinJS\js\base.js</PackagePath>
     </AppxPackagedFile>

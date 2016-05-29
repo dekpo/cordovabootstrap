@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
     <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <PackageIdentityName>eaac3610-25e2-11e6-9f42-6b1d77995bca</PackageIdentityName>
+    <PackageIdentityName>43c2c900-25eb-11e6-8cb8-e39ba7aea8ca</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\build\phone\bld\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
@@ -97,6 +97,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\js\jquery-1.12.4.min.js">
       <PackagePath>www\js\jquery-1.12.4.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\plugins\cordova-plugin-statusbar\www\statusbar.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\www\statusbar.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\WinJS\js\base.js">
       <PackagePath>www\WinJS\js\base.js</PackagePath>

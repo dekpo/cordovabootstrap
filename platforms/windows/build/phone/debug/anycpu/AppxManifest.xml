@@ -8,7 +8,7 @@
     Pour plus d'informations sur les fichiers manifeste, consultez http://go.microsoft.com/fwlink/?LinkID=241727
   -->
   <Identity Name="io.cordova.hellocordova" Publisher="CN=$username$" Version="0.0.1.0" ProcessorArchitecture="neutral" />
-  <mp:PhoneIdentity PhoneProductId="eaac3610-25e2-11e6-9f42-6b1d77995bca" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
+  <mp:PhoneIdentity PhoneProductId="43c2c900-25eb-11e6-8cb8-e39ba7aea8ca" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
   <Properties>
     <DisplayName>HelloCordova</DisplayName>
     <PublisherDisplayName>Apache Cordova Team</PublisherDisplayName>

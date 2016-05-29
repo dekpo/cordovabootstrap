@@ -17,6 +17,8 @@
 "C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\js\bootstrap.min.js" "www\js\bootstrap.min.js"
 "C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\js\index.js" "www\js\index.js"
 "C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\js\jquery-1.12.4.min.js" "www\js\jquery-1.12.4.min.js"
+"C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js" "www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js"
+"C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\plugins\cordova-plugin-statusbar\www\statusbar.js" "www\plugins\cordova-plugin-statusbar\www\statusbar.js"
 "C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\WinJS\js\base.js" "www\WinJS\js\base.js"
 "C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\css\bootstrap-theme.min.css" "www\css\bootstrap-theme.min.css"
 "C:\Users\Dekpo-Wyna\cordovabootstrap\platforms\windows\www\css\bootstrap.min.css" "www\css\bootstrap.min.css"

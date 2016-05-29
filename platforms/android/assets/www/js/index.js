@@ -23,8 +23,20 @@ var app = {
 				$('#modalInfo').on('shown.bs.modal', function () {
 				$('#modalInfo div.modal-body').html(info);
 				console.log('Received Event: ' + info); 	
-				});
+				});		
+				
 		});
+		
+		//cordova-plugin-statusbar
+				if (StatusBar) {
+					console.log('cordova-plugin-statusbar ok');
+					if (StatusBar.isVisible) {
+					StatusBar.hide();
+					console.log('cordova-plugin-statusbar StatusBar.hide()');
+					}
+					
+					
+				}
     }
 };
 

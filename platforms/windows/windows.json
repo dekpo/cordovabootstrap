@@ -7,10 +7,10 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "HelloCordova"
         },
-        "cordova-plugin-statusbar": {
+        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "HelloCordova"
         }
     },
@@ -32,7 +32,7 @@
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-whitelist": "1.2.2",
-        "cordova-plugin-statusbar": "2.1.3"
+        "cordova-plugin-statusbar": "2.1.3",
+        "cordova-plugin-whitelist": "1.2.2"
     }
 }
