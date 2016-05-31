@@ -23,20 +23,31 @@
 				$('#modalInfo').on('shown.bs.modal', function () {
 				$('#modalInfo div.modal-body').html(info);
 				console.log('Received Event: ' + info); 	
-				});		
+				});
 				
-		});
-		
-		//cordova-plugin-statusbar
+			//cordova-plugin-statusbar
 				if (StatusBar) {
 					console.log('cordova-plugin-statusbar ok');
-					if (StatusBar.isVisible) {
-					StatusBar.hide();
-					console.log('cordova-plugin-statusbar StatusBar.hide()');
-					}
+					function toogleStatusBar() {
+							if (StatusBar.isVisible) {
+							StatusBar.hide();
+							console.log('cordova-plugin-statusbar StatusBar.hide()');
+							} else {
+							StatusBar.show();
+							console.log('cordova-plugin-statusbar StatusBar.show()');
+							}
+						}
+						toogleStatusBar();
+						
+						$('#toogleButton').click(function() {
+  						toogleStatusBar();
+						});
+						
+					}	
+				
+		});
 					
 					
-				}
     }
 };
 

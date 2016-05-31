@@ -15,9 +15,13 @@
     </Resources>
     <Applications>
         <Application Id="io.cordova.hellocordova" StartPage="ms-appx-web:///www/index.html">
-            <uap:VisualElements BackgroundColor="#464646" Description="CordovaApp" DisplayName="HelloCordova" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+            <uap:VisualElements BackgroundColor="#000000" Description="CordovaApp" DisplayName="HelloCordova" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
                 <uap:SplashScreen Image="images\splashscreen.png" />
                 <uap:DefaultTile ShortName="HelloCordova" Square310x310Logo="images\Square310x310Logo.png" Square71x71Logo="images\Square71x71Logo.png" Wide310x150Logo="images\Wide310x150Logo.png" />
+                <uap:InitialRotationPreference>
+                    <uap:Rotation Preference="landscape" />
+                    <uap:Rotation Preference="landscapeFlipped" />
+                </uap:InitialRotationPreference>
             </uap:VisualElements>
             <uap:ApplicationContentUriRules>
                 <uap:Rule Match="ms-appx-web:///" Type="include" WindowsRuntimeAccess="all" />
