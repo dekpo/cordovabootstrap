@@ -31,7 +31,7 @@ var app = {
 					console.log(key+':'+value);
 					 });
 					console.log('cordova-plugin-statusbar ok');
-					function toogleStatusBar() {
+					function toggleStatusBar() {
 							if (StatusBar.isVisible) {
 							StatusBar.hide();
 							console.log('cordova-plugin-statusbar StatusBar.hide()');
@@ -40,12 +40,20 @@ var app = {
 							console.log('cordova-plugin-statusbar StatusBar.show()');
 							}
 						}
-						toogleStatusBar();
+						toggleStatusBar();
 						
-						$('#toogleButton').click(function() {
-  						toogleStatusBar();
+						$('#toggleButton').click(function() {
+  						toggleStatusBar();
 						});
-						
+						$('#virtualTourHtml').click(function() {
+  						cordova.InAppBrowser.open('http://krpano.com/tours/corfu/?html5=prefer', '_blank', 'location=no')
+						})
+						$('#virtualTourAuto').click(function() {
+  						cordova.InAppBrowser.open('http://krpano.com/tours/corfu', '_blank', 'location=no')
+						})
+						$('#virtualTourFlash').click(function() {
+  						cordova.InAppBrowser.open('http://krpano.com/tours/corfu/?flash=prefer', '_blank', 'location=no')
+						})
 					}	
 				
 		});
